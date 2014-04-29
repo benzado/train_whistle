@@ -11,7 +11,7 @@ Just add the train-whistle gem to your application's Gemfile, preferably
 in the development group.
 
     group :development do
-      gem 'train-whistle'
+      gem 'train-whistle', :git => 'https://github.com/benzado/train-whistle.git'
     end
 
 That's it. The gem provides a Railtie to load itself automatically.
