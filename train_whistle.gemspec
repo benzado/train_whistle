@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
-  s.name     = 'train-whistle'
-  s.version  = '0.1.0'
+  s.name     = 'train_whistle'
+  s.version  = '0.1.1'
   s.summary  = 'Make a Rails app discoverable via mDNS/Bonjour'
   s.author   = 'Benjamin Ragheb'
   s.email    = 'ben@benzado.com'
-  s.homepage = 'http://github.com/benzado/train-whistle'
+  s.homepage = 'http://github.com/benzado/train_whistle'
   s.license  = 'MIT'
   s.add_runtime_dependency 'dnssd', '~> 2.0'
   s.description = <<-EOD
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.files = %w[
     README.md
     LICENSE.txt
-    lib/train-whistle.rb
-    lib/train-whistle/railtie.rb
+    lib/train_whistle.rb
+    lib/train_whistle/railtie.rb
   ]
 end

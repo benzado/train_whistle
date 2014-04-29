@@ -7,11 +7,12 @@ up your IP address.
 
 ## Installation
 
-Just add the train-whistle gem to your application's Gemfile, preferably
+Just add the train_whistle gem to your application's Gemfile, preferably
 in the development group.
 
     group :development do
-      gem 'train-whistle', :git => 'https://github.com/benzado/train-whistle.git'
+      gem 'train_whistle', :git => 'https://github.com/benzado/train_whistle.git'
     end
 
-That's it. The gem provides a Railtie to load itself automatically.
+That's it. The gem uses a Railtie to load itself automatically. There is no
+configuration (yet).
